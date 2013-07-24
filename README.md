@@ -9,4 +9,6 @@ Allows for comparison with naive iterative search.
 
 The comparison between naive and binary searches shows an issue.
 
+License: public domain.
+
 
