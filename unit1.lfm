@@ -1,18 +1,18 @@
 object Form1: TForm1
-  Left = 205
+  Left = 539
   Height = 408
-  Top = 156
-  Width = 447
+  Top = 201
+  Width = 605
   Caption = 'Form1'
   ClientHeight = 408
-  ClientWidth = 447
+  ClientWidth = 605
   OnClose = FormClose
   OnCreate = FormCreate
   LCLVersion = '1.0.6.0'
   object BitBtn1: TBitBtn
-    Left = 16
+    Left = 40
     Height = 22
-    Top = 384
+    Top = 376
     Width = 97
     Caption = 'Binary search'
     Glyph.Data = {
@@ -55,16 +55,16 @@ object Form1: TForm1
     TabOrder = 0
   end
   object BitBtn2: TBitBtn
-    Left = 365
+    Left = 520
     Height = 22
-    Top = 384
+    Top = 383
     Width = 75
     Caption = 'Quit'
     OnClick = BitBtn2Click
     TabOrder = 1
   end
   object CheckListBox1: TCheckListBox
-    Left = 165
+    Left = 320
     Height = 336
     Top = 8
     Width = 132
@@ -4690,7 +4690,7 @@ object Form1: TForm1
       'zoologici'
       'zucchero'
     )
-    ItemHeight = 15
+    ItemHeight = 17
     Sorted = True
     TabOrder = 2
     Data = {
@@ -5223,7 +5223,7 @@ object Form1: TForm1
       'volte'
       'zone'
     )
-    ItemHeight = 15
+    ItemHeight = 17
     Sorted = True
     TabOrder = 3
     Data = {
@@ -5243,14 +5243,14 @@ object Form1: TForm1
   end
   object Label1: TLabel
     Left = 72
-    Height = 14
+    Height = 16
     Top = 356
-    Width = 31
+    Width = 26
     Caption = '*****'
     ParentColor = False
   end
-  object CheckListBox3: TCheckListBox
-    Left = 536
+  object CheckListBox6: TCheckListBox
+    Left = 712
     Height = 336
     Top = 8
     Width = 124
@@ -5268,9 +5268,9 @@ object Form1: TForm1
     Visible = False
   end
   object BitBtn4: TBitBtn
-    Left = 120
+    Left = 192
     Height = 22
-    Top = 384
+    Top = 376
     Width = 96
     Caption = 'Naive search'
     Glyph.Data = {
@@ -5312,46 +5312,436 @@ object Form1: TForm1
     OnClick = BitBtn4Click
     TabOrder = 6
   end
-  object BitBtn5: TBitBtn
-    Left = 165
-    Height = 24
-    Top = 352
-    Width = 138
-    Caption = 'Binary search single word'
-    OnClick = BitBtn5Click
-    TabOrder = 7
-  end
-  object CheckListBox4: TCheckListBox
-    Left = 304
+  object CheckListBox7: TCheckListBox
+    Left = 459
     Height = 336
     Top = 8
     Width = 136
     ItemHeight = 0
-    TabOrder = 8
+    TabOrder = 7
   end
   object BitBtn6: TBitBtn
-    Left = 312
+    Left = 443
     Height = 24
     Top = 352
-    Width = 128
+    Width = 152
     Caption = 'Copy pivots to clipboard'
     OnClick = BitBtn6Click
-    TabOrder = 9
-  end
-  object BitBtn7: TBitBtn
-    Left = 240
-    Height = 24
-    Top = 384
-    Width = 40
-    Caption = 'Test 1'
-    OnClick = BitBtn7Click
-    TabOrder = 10
+    TabOrder = 8
   end
   object Label2: TLabel
-    Left = 288
-    Height = 14
-    Top = 389
-    Width = 31
+    Left = 408
+    Height = 16
+    Top = 384
+    Width = 26
+    Caption = '*****'
+    ParentColor = False
+  end
+  object CheckListBox3: TCheckListBox
+    Left = 168
+    Height = 336
+    Top = 8
+    Width = 144
+    Items.Strings = (
+      'a'
+      'abitanti'
+      'accademicamente'
+      'accomunare'
+      'accomunato'
+      'ad'
+      'adottata'
+      'africana'
+      'africani'
+      'ai'
+      'al'
+      'alcuna'
+      'alcuni'
+      'alfabetico'
+      'all'
+      'alla'
+      'allora'
+      'altre'
+      'ambito'
+      'americana'
+      'amministrativa'
+      'anche'
+      'ancor'
+      'andarsene'
+      'antica'
+      'antichi'
+      'antichissima'
+      'antichissimi'
+      'antico'
+      'appunto'
+      'araba'
+      'arabi'
+      'arabica'
+      'arabo'
+      'arabofone'
+      'area'
+      'aree'
+      'asiatici'
+      'asiatico'
+      'assai'
+      'assiro'
+      'attestata'
+      'attuale'
+      'attuarono'
+      'attuato'
+      'aumentare'
+      'aveva'
+      'awsat'
+      'breve'
+      'burocratica'
+      'cambiamento'
+      'campagne'
+      'capitale'
+      'caratteristiche'
+      'categorizzazione'
+      'causati'
+      'che'
+      'ciò'
+      'città'
+      'civili'
+      'coloniale'
+      'come'
+      'complesso'
+      'comprendente'
+      'compresa'
+      'comune'
+      'comunque'
+      'con'
+      'conflitti'
+      'confusione'
+      'coniare'
+      'conquista'
+      'conseguenza'
+      'considerati'
+      'continente'
+      'continua'
+      'correntemente'
+      'corrispondente'
+      'così'
+      'costretti'
+      'cristiani'
+      'cui'
+      'curdo'
+      'd'
+      'da'
+      'dagli'
+      'dai'
+      'dal'
+      'dalla'
+      'dalle'
+      'definendoli'
+      'definizione'
+      'degli'
+      'dei'
+      'del'
+      'dell'
+      'della'
+      'delle'
+      'deriva'
+      'desertiche'
+      'di'
+      'diaspora'
+      'differenze'
+      'differenziazione'
+      'dipendeva'
+      'discendenti'
+      'discreta'
+      'disomogenee'
+      'dispersero'
+      'divenne'
+      'diversa'
+      'diverse'
+      'diversi'
+      'domini'
+      'dominio'
+      'dopo'
+      'dove'
+      'dovute'
+      'dovuto'
+      'e'
+      'è'
+      'ebraica'
+      'ebraico'
+      'emigrazione'
+      'epoca'
+      'equivalente'
+      'erano'
+      'esclusione'
+      'esclusivamente'
+      'esistenza'
+      'espressione'
+      'essa'
+      'essenzialmente'
+      'essi'
+      'est'
+      'estendeva'
+      'età'
+      'eterogeneo'
+      'europei'
+      'faceva'
+      'fanno'
+      'fenomeni'
+      'feroce'
+      'fino'
+      'fondarono'
+      'formano'
+      'fra'
+      'fu'
+      'furono'
+      'geo'
+      'geografici'
+      'giungeva'
+      'gli'
+      'governi'
+      'governo'
+      'gruppi'
+      'gruppo'
+      'guerra'
+      'hanno'
+      'i'
+      'identificare'
+      'identificata'
+      'identificava'
+      'idriche'
+      'il'
+      'immigrazione'
+      'impiega'
+      'impiegava'
+      'importanti'
+      'in'
+      'inadeguata'
+      'includendovi'
+      'incoraggiata'
+      'indiano'
+      'indica'
+      'indicava'
+      'indipendente'
+      'individuare'
+      'infatti'
+      'infine'
+      'influenza'
+      'inglese'
+      'inizio'
+      'intera'
+      'interessata'
+      'interni'
+      'invece'
+      'islamica'
+      'isola'
+      'israeliani'
+      'israelitica'
+      'italiana'
+      'italiani'
+      'l'
+      'la'
+      'laddove'
+      'le'
+      'lembi'
+      'limitandosi'
+      'limitata'
+      'linguistici'
+      'loro'
+      'lungo'
+      'ma'
+      'maggior'
+      'maggioranza'
+      'massacro'
+      'mediorientale'
+      'mentre'
+      'migratori'
+      'migrazione'
+      'milione'
+      'milioni'
+      'minoranza'
+      'minore'
+      'molti'
+      'molto'
+      'mondiale'
+      'mondo'
+      'montagne'
+      'motivi'
+      'musulmani'
+      'ne'
+      'necessità'
+      'negato'
+      'nel'
+      'nell'
+      'nella'
+      'nomadi'
+      'nome'
+      'non'
+      'nordafricani'
+      'numerosa'
+      'numerose'
+      'numerosi'
+      'numeroso'
+      'o'
+      'occidentale'
+      'occupata'
+      'odierna'
+      'oltre'
+      'oltremare'
+      'operato'
+      'oramai'
+      'ordine'
+      'orientale'
+      'orientali'
+      'originari'
+      'origine'
+      'ottomani'
+      'ottomano'
+      'ovest'
+      'paesi'
+      'parte'
+      'partendo'
+      'penisola'
+      'per'
+      'peraltro'
+      'periodo'
+      'persecuzione'
+      'persiano'
+      'petrolio'
+      'più'
+      'poi'
+      'politica'
+      'popolazione'
+      'popolazioni'
+      'popoli'
+      'popolo'
+      'possiede'
+      'poveri'
+      'precedenti'
+      'precisione'
+      'predilezione'
+      'presenza'
+      'prima'
+      'principali'
+      'produttori'
+      'profonde'
+      'propone'
+      'proprio'
+      'provengono'
+      'punta'
+      'qualche'
+      'quali'
+      'quella'
+      'quest'
+      'questa'
+      'queste'
+      'quindi'
+      'rafforzare'
+      'recenti'
+      'recepita'
+      'regione'
+      'regioni'
+      'regno'
+      'religione'
+      'repressione'
+      'ricorre'
+      'ricorreva'
+      'riferirsi'
+      'riferiva'
+      'rimase'
+      'risorse'
+      'rispettivamente'
+      'ritornarono'
+      'romano'
+      'rurale'
+      'scarsissime'
+      'sciiti'
+      'se'
+      'secolo'
+      'seconda'
+      'seguita'
+      'sei'
+      'semplice'
+      'sentì'
+      'settentrionale'
+      'si'
+      'siano'
+      'significato'
+      'sistematico'
+      'solito'
+      'solo'
+      'sono'
+      'soprattutto'
+      'sotto'
+      'sottomessi'
+      'sottoposto'
+      'sovrapposizioni'
+      'spostamenti'
+      'stabilitisi'
+      'stata'
+      'sterminio'
+      'stessa'
+      'storia'
+      'sub'
+      'sud'
+      'suddivisione'
+      'sunniti'
+      'suoi'
+      'superano'
+      'tempi'
+      'tempo'
+      'tende'
+      'termine'
+      'termini'
+      'tra'
+      'trovano'
+      'turco'
+      'tutto'
+      'tuttora'
+      'ugualmente'
+      'ultima'
+      'un'
+      'una'
+      'unico'
+      'uno'
+      'urbana'
+      'usa'
+      'usata'
+      'usato'
+      'uso'
+      'vari'
+      'vasta'
+      've'
+      'verso'
+      'vi'
+      'vicino'
+      'villaggi'
+      'vive'
+      'vivono'
+      'volentieri'
+      'volte'
+      'zone'
+    )
+    ItemHeight = 17
+    Sorted = True
+    TabOrder = 9
+    Data = {
+      7701000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000
+    }
+  end
+  object Label3: TLabel
+    Left = 208
+    Height = 16
+    Top = 356
+    Width = 26
     Caption = '*****'
     ParentColor = False
   end
